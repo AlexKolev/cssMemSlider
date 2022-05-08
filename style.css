@@ -70,9 +70,22 @@ body {
 	padding-top: 2%;
 }
 
+@media screen and (max-width: 767px) {
+	.under_slider {
+		padding-top: 5%;
+		flex-direction: column-reverse;
+	}
+}
+
 .text-slider-wrapper {
-	width: 40%;
+	width: 50%;
 	overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+	.text-slider-wrapper {
+		width: 100%;
+	}
 }
 
 
@@ -90,8 +103,21 @@ body {
 	padding-right: 1%;
 }
 
+@media screen and (max-width: 767px) {
+	.text {
+		text-align: center;
+	}
+}
+
+
 .intuts {
 	display: flex;
+}
+
+@media screen and (max-width: 767px) {
+	.intuts {
+		justify-content: center;
+	}
 }
 
 .intut-wrapper {
@@ -100,7 +126,7 @@ body {
 }
 
 .switcher_label {
-	width: 20px;
+	width: 30px;
 	height: 30px;
 	/* background-color: aliceblue; */
 	display: flex;
