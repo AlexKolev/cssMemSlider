@@ -10,7 +10,12 @@ body {
 	margin: 2% auto 0;
 	text-align: center;
 	background-color: black;
+}
 
+@media screen and (max-width: 767px) {
+	.conteiner {
+		margin: 5% auto 0;
+	}
 }
 
 .slide-switcher {
@@ -36,14 +41,19 @@ body {
 	display: flex;
 }
 
-.slider1 {
+.slider {
 	width: 100%;
-	background-color: blue;
+	background-color: rgba(255, 255, 255, 0.44);
+	/* background-image: url('./1.jpg'); */
 	flex: 0 0 auto;
-	border-radius: inherit;
+	/* border-radius: inherit; */
 }
 
-.slider2 {
+img {
+	height: 100%;
+}
+
+/* .slider2 {
 	width: 100%;
 	background-color: red;
 	flex: 0 0 auto;
@@ -62,7 +72,7 @@ body {
 	background-color: yellow;
 	flex: 0 0 auto;
 	border-radius: inherit;
-}
+} */
 
 .under_slider {
 	display: flex;
