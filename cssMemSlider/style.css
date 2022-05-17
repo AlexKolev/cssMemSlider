@@ -131,6 +131,7 @@ body {
 	cursor: pointer;
 }
 
+
 #slide-1:checked~.sliders-wrapper .sliders,
 #slide-1:checked~.under_slider .text-slider-wrapper .text-slider {
 	transform: translateX(-100%);
@@ -160,4 +161,13 @@ body {
 
 #slide-3:checked~.under_slider .intuts .intut-wrapper .switcher_label #fake-input-3 {
 	background-color: unset;
+}
+
+.switcher_label:hover>.fake-input {
+	background-color: red;
+	border: 0.0625rem solid blue;
+}
+
+.switcher_label:active>.fake-input {
+	background-color: green;
 }
